@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Instrument</title>
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="drum-machine" class="container">
+      <div class="card text-center">
+        <div class="card-header text-white bg-secondary">
+          #instrument
+        </div>
+          <div class="card-body bg-light">
+            <h5 class="card-title">Szopian Sound System</h5>
+            <h6 class="card-text" id="display">Sounds</h6>
+          
+            <button class="drum-pad btn btn-block btn-outline-dark" id="drum1" onclick="play('Q')">
+              Q
+              <audio src="./clip/Boat Horn.mp3" class="clip" id="Q" />
+            </button>
+            <button class="drum-pad btn btn-block btn-outline-dark" id="drum2" onclick="play('W')">
+              W
+              <audio src="./clip/Camera Click.mp3" class="clip" id="W" />
+            </button>
+            <button class="drum-pad btn btn-block btn-outline-dark" id="drum3" onclick="play('E')">
+              E
+              <audio src="./clip/Dropping A Wrench.mp3" class="clip" id="E" />
+            </button>
+            <button class="drum-pad btn btn-block btn-outline-dark" id="drum4" onclick="play('A')">
+              A
+              <audio src="./clip/Goodbye.mp3" class="clip" id="A" />
+            </button>
+            <button class="drum-pad btn btn-block btn-outline-dark" id="drum5" onclick="play('S')">
+              S
+              <audio src="./clip/Gun Silencer.mp3" class="clip" id="S" />
+            </button>
+            <button class="drum-pad btn btn-block btn-outline-dark" id="drum6" onclick="play('D')">
+              D
+              <audio src="./clip/gunShotSound.mp3" class="clip" id="D" />
+            </button>
+            <button class="drum-pad btn btn-block btn-outline-dark" id="drum7" onclick="play('Z')">
+              Z
+              <audio src="./clip/Hello.mp3" class="clip" id="Z" />
+            </button>
+            <button class="drum-pad btn btn-block btn-outline-dark" id="drum8" onclick="play('X')">
+              X
+              <audio src="./clip/Jaguar.mp3" class="clip" id="X" />
+            </button>
+            <button class="drum-pad btn btn-block btn-outline-dark" id="drum9" onclick="play('C')">
+              C
+              <audio src="./clip/Whip Crack.mp3" class="clip" id="C" />
+            </button>
+          </div>
+          <div class="card-footer text-muted">
+            MAKE YOURSELF SOUND SICK
+          </div> 
+        </div>  
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
