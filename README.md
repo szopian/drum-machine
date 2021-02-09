@@ -1,10 +1,10 @@
-# Front End Libraries Projects - Build a Drum Machine
+# Front End Libraries Projects - Build a Drum Machine FreeCodeCamp
  
  Was used..
  
- ### HTML, JavaScript, CSS, Bootstrap
+ ### HTML, JavaScript, CSS and Bootstrap
  
- to complete this project!
+ to complete this project from FreeCodeCamp!
  
  Enojoy SOUNDS!! 
 
